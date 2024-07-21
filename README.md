@@ -1,6 +1,8 @@
 # Smart-RoboSpeaker-1.1
 Smart-RoboSpeaker 1.1 is a simple, yet effective text-to-speech application developed in Python.
-It allows users to input text, which the program then converts to speech and audibly outputs. The program runs in a loop, continuously accepting user input until the user types "q" or "Q" to terminate the program. It is designed to work on Windows, Linux and MacOS platforms using the 'pyttsx3' library, ensuring cross-platform compatibility and offline functionality.
+It allows users to input text, which the program then converts to speech and audibly outputs. 
+The program runs in a loop, continuously accepting user input until the user types "q" or "Q" to terminate the program. 
+It is designed to work on Windows, Linux and MacOS platforms using the 'pyttsx3' library, ensuring cross-platform compatibility and offline functionality.
 pyttsx3: A text-to-speech conversion library in Python that works offline and is cross-platform compatible (supports Windows, macOS, and Linux). The functions are as follows
 pyttsx3.init(): Initializes the TTS engine.
 engine.getProperty('rate'): Gets the current speech rate.
